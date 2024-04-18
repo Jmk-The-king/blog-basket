@@ -1,0 +1,105 @@
+body{
+    margin: 20px;
+}
+/* Banner */
+.banner{
+    background-image: url("../img/bg/bg-1.jpg"); /* Remplacez "image.jpg" par le chemin de votre image de fond */
+    background-color: #000000bb;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+/* Titre du site */
+.site-title{
+    color: #fff;
+    float: right;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 15px 5px;
+}
+/* Navbar */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.342); /* Fond du menu transparent */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    transition: .3s ease;
+
+    /* Navbar au survol */
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.651);
+    }
+}
+/* Logo du site */
+.logo img {
+    width: 100px;
+    margin-right: 5px;
+    padding-top: 5px;
+}
+  
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+  
+.menu li {
+    margin-right: 20px;
+}
+  
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+  
+.buttons {
+    display: flex;
+}
+  
+.icon-button {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: .2s ease;
+
+    &:hover{
+        color: #55f;
+        transform: scale(1.2);
+    }
+}
+
+/* Contenu de la banière */
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: #fff;
+    padding: 20px;
+}
+  
+.banner-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+  
+.banner-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+}

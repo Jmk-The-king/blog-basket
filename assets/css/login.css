@@ -1,0 +1,68 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 30px;
+    background-image: url('../img/bg/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #00000093;
+    background-blend-mode: multiply;
+}
+
+.form-container {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #00000000;
+}
+
+.form-container .form-group {
+    margin-bottom: 20px;
+}
+
+.form-container #registerGender{
+    background-color: #00000000;
+}
+.form-container .options{
+    background-color: #00000000;
+}
+
+.form-container .form-group label {
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.form-container .form-group input[type="text"],
+.form-container .form-group input[type="email"],
+.form-container .form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #00000000;
+    color: #fff;
+}
+
+.form-container .form-group .checkbox-label {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.form-container .form-group .checkbox-label input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.form-container .form-group .form-subtitle {
+    margin-bottom: 10px;
+}
+
+.form-container .form-group .toggle-form-link {
+    color: #007bff;
+    cursor: pointer;
+}
