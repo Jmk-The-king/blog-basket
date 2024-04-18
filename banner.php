@@ -24,7 +24,7 @@
             <a href="pages/boutique.php" class="icon-button">
                 <i class="bi bi-cart"></i>
             </a>
-            <a href="#" class="icon-button">
+            <a href="#" class="icon-button"> 
                 <i class="bi bi-bell-fill"></i>
             </a>
             <a href="#" class="icon-button">
